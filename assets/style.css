@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+figure {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.emmastokesphotography.co.uk%2Fportfolio-1&psig=AOvVaw0RV8i5ygkgg02zxHqmbgre&ust=1696955390727000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDil8yx6YEDFQAAAAAdAAAAABATdigital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
