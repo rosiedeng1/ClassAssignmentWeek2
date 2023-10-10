@@ -10,38 +10,58 @@ body {
 
 .header {
     font-family: papyrus;
- 
-.header h1 {
-    color: rgb(130, 48, 130);
+    color: rgb(160, 98, 160);
 }
 
-.header nav {
-    padding-top: 15px;
+.header nav ul li {
+    padding-top: 5px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-align: right;
 }
 
-}
+
 .background {
     height: 500px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     background-size: cover;
     background-position: center;
 }
 
-h2{
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: rgba(188, 156, 202, 0.768);
+    align-self: center;
+
+
+}
+main h2{
     text-align: left;
     color: rgb(87, 75, 138);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 p {
     text-align: right;
 }
 
+
 .myphoto {
     height: 200px;
+}
+
+.ContactMe p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+  list-style-type: none;
+  height: 100px;
+  justify-content: center;
 }
