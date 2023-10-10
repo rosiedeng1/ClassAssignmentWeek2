@@ -6,6 +6,8 @@
 
 body {
     background-color: #c2cae0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header {
@@ -13,13 +15,21 @@ body {
     color: rgb(160, 98, 160);
 }
 
-.header nav ul li {
-    padding-top: 5px;
+.header nav {
+    padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 100px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
 }
 
 
@@ -44,24 +54,52 @@ body {
 
 }
 main h2{
-    text-align: left;
     color: rgb(87, 75, 138);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
-p {
-    text-align: right;
+#AboutMe {
+    display: flex;
+    justify-content: space-around;
 }
-
 
 .myphoto {
     height: 200px;
 }
 
-.ContactMe p {
+#Work {
+    display: flex;
+    justify-content: space-around;
+}
+#ContactMe {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ContactMe p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
   list-style-type: none;
-  height: 100px;
+  height: 50px;
   justify-content: center;
+  
 }
+
+
+@media screen and (max-width: 992px) {
+    .header {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+      width: 100%;
+    }
+}  
