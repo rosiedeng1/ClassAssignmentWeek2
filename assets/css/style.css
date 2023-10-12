@@ -15,6 +15,7 @@ body {
     color: rgb(160, 98, 160);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -35,6 +36,13 @@ body {
     margin-left: 50px;
 }
 
+.background {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
 /* This shows the section classes which corresponds to my AboutMe, Work and Contact Me Ids */
 .Section {
     display: flex;
@@ -45,12 +53,10 @@ body {
     width: 18%;
 }
 
-.background {
-    height: 500px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
+.SectionContent {
+    display: flex;
+    padding-left: 10%;
+    width: 85%;
 }
 
 main h2{
@@ -69,19 +75,32 @@ main h2{
     border-radius: 50%;
 }
 
+/* My Ids under the Work section */
 #Work {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
 }
 
+#WorkImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.OtherProjects {
+width: 400px;
+flex-direction: column;
+}
+
 .project1 {
-    height: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
 
 }
-.flexbox-container {
+.box {
     width: 300px;
-    height: 100px;
+    height: 150px;
     margin: 10px;
     border: 3px solid black;
     background-color: rgba(188, 156, 202, 0.768);
@@ -90,28 +109,34 @@ main h2{
 
 .project3 {
     height: 150px;
-    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
 #ContactMe {
     display: flex;
     justify-content: space-around;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #ContactMe p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  list-style-type: none;
-  height: 50px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px
   
 }
 
+#ContactMe2 {
+    display: flex;
+}
+
+.ContactMe3 {
+    margin-right: 30px;
+}
 @media screen and (max-width: 768px) {
 
-    #work-images-cont {
+    #WorkImages {
         flex-direction: column;
     }
 
@@ -121,7 +146,6 @@ font-size: 20px
     }
 
   .Section2 {
-
     text-align: center;
   }
 }

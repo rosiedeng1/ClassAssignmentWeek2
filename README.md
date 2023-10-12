@@ -6,7 +6,8 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Usage
 
-This website can be used by clicking on one of the links at the top (About Me, Work, Contact Me, etc ) which goes to the corresponding section and gives details on that topic that is linked. In the Work section, if you click on an image, it will link to a corresponding project that I have worked on. 
+This website can be used by clicking on one of the links at the top (About Me, Work, Contact Me, etc ) which goes to the corresponding section and gives details on that topic that is linked. In the Work section, if you click on an image, it will link to a corresponding project that I have worked on. If you resize the webpage, you can see that there is a responsive layout where the content adjusts to webpage. 
+
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
