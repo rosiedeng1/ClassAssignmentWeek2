@@ -4,14 +4,14 @@
     margin: 0;
 }
 
-/* Indicates background color of body*/
+/* Indicates background color of whole body*/
 body {
     background-color: #c2cae0;
     width: 100vw;
     height: 100vh;
 }
 
-/* header class will have flexbox that is space-between */
+/* header class will have flexbox where the content is 'space-between' */
 .header {
     font-family: papyrus;
     color: rgb(160, 98, 160);
@@ -47,6 +47,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 /* This shows the section classes which corresponds to my AboutMe, Work and Contact Me Ids */
 .Section {
     display: flex;
@@ -69,8 +70,8 @@ main h2{
 
 }
 
-/* Consolidated these IDs with the same features */
-#AboutMe, #Work, #ContactMe  {
+/* Consolidated Section element which have the same features. Alternatively, AboutMe, Work, ContactMe IDs would work  */
+Section  {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -81,13 +82,14 @@ main h2{
     border-radius: 50%;
 }
 
+/* Images in Work ID are wrapped */
 #WorkImages {
     display: flex;
     flex-wrap: wrap;
 }
 
 .OtherProjects {
-width: 400px;
+width: 310px;
 flex-direction: column;
 }
 
@@ -101,7 +103,6 @@ flex-direction: column;
 .box {
     width: 300px;
     height: 150px;
-    margin: 10px;
     border: 3px solid black;
     background-color: rgba(188, 156, 202, 0.768);
     align-self: center;
@@ -126,12 +127,12 @@ font-size: 20px
     display: flex;
 }
 
-/* content between each <p> will be spaced out by 30px  */
+/* Spacing between each <p> will be 35px  */
 .ContactMe3 {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
-/* Shows mediascreen-Webpage will respond accordingly when resized */
+/* Shows responsive layout-Webpage will respond accordingly when resized (images will stack on top of eachother) */
 @media screen and (max-width: 768px) {
 
     #WorkImages {
