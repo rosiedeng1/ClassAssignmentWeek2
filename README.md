@@ -10,8 +10,6 @@ This website can be used by clicking on one of the links at the top right (About
 Link to live site:
 https://rosiedeng1.github.io/ClassAssignmentWeek2/
 
-Provide instructions and examples for use. Include screenshots as needed.
-
 ![Website](assets/images/PortfolioWebsite.png)
 ![Projects](assets/images/Projects.png)
 ![WebsiteWithResponsiveLayout](assets/images/ResponsiveLayout.png)
