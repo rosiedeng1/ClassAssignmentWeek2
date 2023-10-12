@@ -4,12 +4,14 @@
     margin: 0;
 }
 
+/* Indicates background color of body*/
 body {
     background-color: #c2cae0;
     width: 100vw;
     height: 100vh;
 }
 
+/* header class will have flexbox that is space-between */
 .header {
     font-family: papyrus;
     color: rgb(160, 98, 160);
@@ -19,6 +21,7 @@ body {
 
 }
 
+/* Navigation links will float to the right of the wepage */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,6 +39,7 @@ body {
     margin-left: 50px;
 }
 
+/* Shows positioning of background image */
 .background {
     height: 400px;
     width: 100%;
@@ -64,7 +68,9 @@ main h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
-#AboutMe {
+
+/* Consolidated these IDs with the same features */
+#AboutMe, #Work, #ContactMe  {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -73,13 +79,6 @@ main h2{
 .myphoto {
     height: 200px;
     border-radius: 50%;
-}
-
-/* My Ids under the Work section */
-#Work {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
 }
 
 #WorkImages {
@@ -92,6 +91,7 @@ width: 400px;
 flex-direction: column;
 }
 
+/* Shows the CSS for my images under Work ID */
 .project1 {
     height: 400px;
     display: flex;
@@ -115,12 +115,7 @@ flex-direction: column;
 
 }
 
-#ContactMe {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-}
-
+/* Shows CSS of content under my ContactMe ID */
 #ContactMe p {
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px
@@ -131,9 +126,12 @@ font-size: 20px
     display: flex;
 }
 
+/* content between each <p> will be spaced out by 30px  */
 .ContactMe3 {
     margin-right: 30px;
 }
+
+/* Shows mediascreen-Webpage will respond accordingly when resized */
 @media screen and (max-width: 768px) {
 
     #WorkImages {

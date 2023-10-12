@@ -13,7 +13,7 @@ https://rosiedeng1.github.io/ClassAssignmentWeek2/
 Provide instructions and examples for use. Include screenshots as needed.
 
 ![Website](assets/images/PortfolioWebsite.png)
-![Projects] (assets/images/Projects.png)
+![Projects](assets/images/Projects.png)
 ![WebsiteWithResponsiveLayout](assets/images/ResponsiveLayout.png)
 
 Instructions for ![Website]: This shows the website format where if you click on one of the links on the right site, it will go to the corresponding section 
